@@ -1,0 +1,17 @@
+# Workflow
+# Should have name
+name: Hello
+
+on:
+  workflow_dispatch: 
+# Job
+jobs: 
+  say-hello:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Say hello to everyone
+        run: echo "Hello User"
+
+# Step  
+
+# Actions
